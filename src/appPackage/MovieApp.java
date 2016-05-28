@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import moviePackage.Movie;
 import moviePackage.MovieIO;
+import validatorPackage.validator;
 public class MovieApp {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
