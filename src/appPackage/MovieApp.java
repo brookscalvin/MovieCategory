@@ -21,10 +21,11 @@ public class MovieApp {
 		System.out.println("there are "+myList.size()+" movies in this list");
 		System.out.print("What category are you interested in?: ");
 		input.nextLine();
-		for (int i=0; i<myList.size();i++){
-			if(input.equals("Drama")){
-				System.out.println(myList.get(i).getCategory());
-			}
-		}
+//		for (int i=0; i<myList.size();i++){
+//			if(input.equals("Drama")){
+//				System.out.println(myList.get(i).getCategory());
+//			}
+//		}
 	}
+}
 }
